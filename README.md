@@ -25,6 +25,6 @@
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" unchecked="">- [ ]  Adicionar função ao botão copiar.</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" unchecked="">- [ ]  Adicionar versão mobile.</li>
 </ul>
-
+<br>
 <hr/>
-<div style="text-align:center">Desenvolvido por Catarine Castro 🍰
+<p align="center">Desenvolvido por Catarine Castro 🍰
