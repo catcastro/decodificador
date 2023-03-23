@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #0a3871;
+  --primary-color-dark: #072b61;
+  --primary-color-light: #f3f5fc;
+
+  --white: #ffffff;
+  --grey: #495057;
+  --light-grey: #e1e4ed;
+  --red: #a11515;
+}
+
+body {
+  background: var(--primary-color-light);
+  margin: 0px;
+  color: var(--primary-color-dark);
+  font-family: "Inter", Arial, sans-serif;
+}
+
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

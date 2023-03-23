@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador - ONE</title>
+  <meta name="description" content="Decodificador de texto criado para o Challenge ONE em parceria com a Alura.">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <img src="./img/logo-alura.svg" width="32" height="32" alt="Alura">
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <textarea class="input-entrada" placeholder="Digite seu texto aqui"></textarea>
+      <div class="info">
+        <img src="/img/exclamacao.svg" alt="Ponto de exclamação">
+        <h3>Utilize apenas letras minúsculas e sem acento.</h3>
+      </div>
+      <div class="botao-entrada">
+        <button class="btn-codificar" onclick="btnCodificar()">Codificar</button>
+        <button class="btn-decodificar" onclick="btnDecodificar()">Decodificar</button>
+      </div>
+    </section>
+
+    <section>
+      <textarea class=" input-mensagem" placeholder="O resultado sairá aqui"></textarea>
+      <div class="botao-mensagem">
+        <button class="btn-copiar">Copiar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-redes">
+        <a href="https://github.com/catcastro"><img src="./img/github.png" width="32" height="32" alt="Logo do Github"></a>
+        <a href="https://www.linkedin.com/in/catarine-castro/"><img src="./img/linkedin.png" width="32" height="32" alt="Logo do Linkedin"></a>
+      </div>
+      <p>Criado por Catarine Castro • Challenge ONE</p>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

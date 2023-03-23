@@ -1,0 +1,78 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 400px;
+}
+
+.input-entrada {
+  display: flex;
+  width: 420px;
+  height: 280px;
+  padding: 20px;
+  font: 400 28px "Inter", sans-serif;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--light-grey);
+}
+
+.input-entrada:hover {
+  outline: none;
+}
+
+::placeholder {
+  color: var(--grey);
+}
+
+.input-mensagem {
+  position: fixed;
+  display: flex;
+  width: 420px;
+  height: 380px;
+  padding: 20px;
+  margin-bottom: 10px;
+  font: 400 28px "Inter", sans-serif;
+  border: solid 1px var(--light-grey);
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+.input-mensagem:hover {
+  outline: none;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 10px 20px;
+  font: 400 12px "Inter", sans-serif;
+  color: var(--grey);
+}
+
+.botao-entrada {
+  display: flex;
+  width: 75%;
+  padding: 10px 20px;
+  justify-content: start;
+  gap: 20px;
+  background-color: var(--primary-color-light);
+}
+
+.botao-mensagem {
+  position: absolute;
+  padding: 10px 0;
+  margin-top: 360px;
+  margin-left: 180px;
+}
+
+.btn-codificar,
+.btn-decodificar,
+.btn-copiar {
+  padding: 10px 20px;
+  background: var(--primary-color);
+  text-transform: lowercase;
+  font: 700 16px "Inter", sans-serif;
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.header {
+  max-width: 100%;
+  padding: 40px 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color-light);
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+  }
+}
