@@ -26,4 +26,5 @@
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" unchecked="">- [ ]  Adicionar versão mobile.</li>
 </ul>
 
-
+<hr/>
+<div style="text-align:center">Desenvolvido por Catarine Castro 🍰
